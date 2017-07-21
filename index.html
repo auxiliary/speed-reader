@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast Reader</title>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="reader.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="row" id="wrapper">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <h2>Fast reader</h2>
+            <div class="bs-callout bs-callout-primary">Practice fast reading by pasting a text, choosing the speed and hitting start. </div>
+            <form action="#">
+                <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+                <button href="#" class="btn btn-primary" id="start_btn">Start</button>
+                <button href="#" class="btn btn-primary" id="stop_btn">Pause</button>
+                <span class="speed-controls">Speed:
+                    <select class="form-control" name="speed" id="speed">
+                        <option value="100">100</option>
+                        <option value="150">150</option>
+                        <option value="200">200</option>
+                        <option value="250">250</option>
+                        <option value="300">300</option>
+                        <option value="350">350</option>
+                        <option value="400">400</option>
+                        <option value="450">450</option>
+                    </select>
+                </span>
+                <div id="text">
+
+                </div>
+            </form>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</body>
+</html>
